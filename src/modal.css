@@ -1,0 +1,41 @@
+select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove_btn {
+  background-color: #e6fdff;
+  color: #lightgrey;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal_actions {
+  display: flex;
+  background-color: #d1d8d9;
+  justify-content: flex-start;
+  padding: 10px;
+  font-size: bold;
+  margin-top: 15px;
+}
+
+.save_btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancel_btn {
+  background-color: #fff;
+  color: #dc3545;
+  margin-left: 8px;
+}
