@@ -31,7 +31,7 @@ function Modal({ onClose, onOpen }) {
       setErrors("Please select a option before adding a new one.");
       return;
     }
-    console.log(availableOptions, "availableOptions in add")
+    console.log(availableOptions, "availableOptions in add");
     if (availableOptions.length < 1) {
       setErrors("No options left");
       return;
@@ -175,7 +175,8 @@ function Modal({ onClose, onOpen }) {
         <div
           style={{
             width: "100%",
-            height: "10%",
+            // height: "10%",
+            height: "48px",
             color: "#fff",
             backgroundColor: "#06dae9",
             display: "flex",
